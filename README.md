@@ -3,8 +3,6 @@
 Dataset of Tropical Cyclone for Image-to-intensity Regression (TCIR) [^TCIR] was put forward by Boyo Chen, BuoFu Chen and Hsuan-Tien Lin. Please browse web page [TCIR](https://www.csie.ntu.edu.tw/~htlin/program/TCIR/) for detail.
 Single image in the TCIR dataset has the size of  201 (height) \* 201 (width) \* 4 (channels). Four channels are Infrared, Water vapor, Visible and Passive microwave, respectively. We just use Infrared and Passive microwave channels.
 
-File TCIntensityEstimation has all the file about tropic cyclone intensity estimation problem, including source code, "how to get data" and a trianed model weights file.
-
 - download source dataset (~13GB) and unzip
 
 ```
