@@ -13,8 +13,8 @@ wget https://learner.csie.ntu.edu.tw/~boyochen/TCIR/TCIR-ATLN_EPAC_WPAC.h5.tar.g
 wget https://learner.csie.ntu.edu.tw/~boyochen/TCIR/TCIR-CPAC_IO_SH.h5.tar.gz
 ```
 - preprocessing: 
- Use convective_core_features.py to generate convective core features. Other preprocessing approaches were described in the paper.
+ use convective_core_features.py to generate convective core features. Other preprocessing approaches were described in the paper.
  
 - models:
-  Baseline models are modified to be compatible with the data shape used in our model. Adjusted loss funtion is in tools.py. The number of auxiliary features, adjusted loss coeffients and other parameters can be set with args.
+  baseline models are modified to be compatible with the data shape used in our model. Adjusted loss funtion is in tools.py. The number of auxiliary features, adjusted loss coeffients and other parameters can be set with args.
  
